@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let numbers = [3,6,7,11,13,5,17,19,20,9,99,33,66,73];
+    function numb() {
+        let sum = 0;
+        for (let i = 0; i < numbers.length; i++) {
+            if (numbers[i] % 2 === 1) {
+                sum += numbers[i];
+            }
+        }
+        document.write(sum);
+    }
+    numb(numbers)
+</script>
+</body>
+</html>
